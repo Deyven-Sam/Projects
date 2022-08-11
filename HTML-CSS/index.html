@@ -11,6 +11,10 @@
   <!-- FONT KIT -->
   <script src="https://kit.fontawesome.com/659c2d9910.js" crossorigin="anonymous"></script>
 
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,26 +23,24 @@
   <!-- Home section : Title and Navbar -->
 
   <section id="home">
-    <h3>BRAND NAME</h3>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="title">SAMFOLIO</li>
+        <li class="weight"><a href="#">Contact</a></li>
+        <li class="weight"><a href="#">Resume</a></li>
+        <li class="weight"><a href="#">Work</a></li>
+        <li class="weight"><a href="#">About</a></li>
+        <li class="weight"><a href="#">Home</a></li>
       </ul>
     </nav>
 
-    <div class="">
+    <div class="home">
+
       <h1> SAM'S PORTFOLIO</h1>
       <button type="button" name="button"><i class="fa-solid fa-angles-down"></i>DOWNLOAD</button>
       <button type="button" name="button"><i class="fa-solid fa-angles-down"></i>DOWNLOAD</button>
-    </div>
-    <div class="homeimg">
-      <img src="images/homeimg.png" alt="HOME PAGE IMAGE" width="400">
-    </div>
 
+    </div>
   </section>
 
 
@@ -51,23 +53,30 @@
       Quam pellentesque nec nam aliquam sem et tortor consequat. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Adipiscing elit duis tristique sollicitudin. Quam lacus suspendisse faucibus interdum. Ipsum a arcu cursus vitae congue
       mauris rhoncus aenean. Tellus mauris a diam maecenas sed enim ut sem viverra. Eget nulla facilisi etiam dignissim diam quis enim lobortis.</p>
 
-    <h2>Here, Dreams Come True</h2>
-    <video width="500" controls autoplay muted>
-      <source src="videos/teamwork.mp4" type="video/mp4">
-    </video>
+    <div class="dreams">
+      <h2>Here, Dreams Come True</h2>
+      <video width="500" controls autoplay muted>
+        <source src="videos/team.mp4" type="video/mp4">
+      </video>
+    </div>
 
   </section>
 
 
   <!-- the Work section -->
 
-  <section id="work">
+  <section id="workk">
 
     <h2>My Master Pieces</h2>
-    <img src="images/project1.png" alt="project1">
-    <img src="images/project2.png" alt="project2">
-    <img src="images/project3.png" alt="project3">
-    <img src="images/project4.png" alt="project4">
+
+    <table>
+      <tr>
+        <td><img src="images/project1.png" alt="project1"></td>
+        <td><img src="images/project2.png" alt="project2"></td>
+        <td><img src="images/project3.png" alt="project3"></td>
+        <td><img src="images/project4.png" alt="project4"></td>
+      </tr>
+    </table>
 
   </section>
 
@@ -88,14 +97,19 @@
 
   <!-- the Contact section -->
 
-  <section class="contact">
+  <section id="contact">
 
     <h2>Contacts</h2>
-    <p><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></p>
-    <p><i class="fa-brands fa-square-twitter"></i><a href="#">Twitter</a></p>
-    <p><i class="fa-brands fa-square-instagram"></i><a href="#">Instagram</a></p>
 
-    <div class="">
+    <ul class="contactlist">
+      <li><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></li>
+      <li><i class="fa-brands fa-square-twitter"></i><a href="#">Twitter</a></li>
+      <li><i class="fa-brands fa-square-instagram"></i><a href="#">Instagram</a></li>
+    </ul>
+
+
+
+    <div class="form">
 
       <h3>Get in touch</h3>
       <form>
@@ -112,7 +126,7 @@
         <br />
 
         <label>Message</label><br>
-        <input type="text" name="message" placeholder="Make your dreal come true" />
+        <input type="text" name="message" placeholder="Make your dream come true" />
         <br />
 
         <input type="submit" value="Submit" />
@@ -125,7 +139,7 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer>
 
     <p>© Copyright 2022 Sam's Portfolio</p>
 

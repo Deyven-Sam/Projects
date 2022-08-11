@@ -1,1 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #52734D;
+  z-index: 3;
+}
+
+li {
+  display: inline-block;
+  margin-right: 9px;
+  padding: 14px 16px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  background-color: #52734D;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 15px;
+  position: relative;
+  top: 80px
+}
+
+table {
+  margin: auto;
+}
+
+img {
+  margin-right: 25px;
+}
+
+footer {
+  background-color: #52734D;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  background-color: #91C788;
+}
+
+.weight {
+  float: right;
+}
+
+.weight:hover {
+  background-color: #91C788;
+  font-weight: bold;
+}
+
+.home {
+  background-color: #DDFFBC;
+  color: black;
+  padding: 100px 0;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+.homeimg {
+  display: inline-block;
+  position: relative;
+  left: 60%;
+  transform: rotate(30deg);
+  z-index: 2;
+}
+
+.dreams {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contactlist {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#about {
+  background-color: #FEFFDE;
+  padding-top: 25px;
+}
+
+#workk {
+  background-color: #DDFFBC;
+}
+
+#resume {
+  background-color: #FEFFDE;
+}
+
+#contact {
+  background-color: #DDFFBC;
+}
