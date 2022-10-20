@@ -1,0 +1,13 @@
+.parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.first {
+display: inline-block;
+justify-content: center;
+border: solid white 1px;
+border-radius: 5px;
+}
