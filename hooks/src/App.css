@@ -1,0 +1,18 @@
+.App{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.toCenter{
+display: flex;
+justify-content: center;
+}
+
+
+
+.inpCSS{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
